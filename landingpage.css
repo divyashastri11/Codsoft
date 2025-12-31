@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #d4cdcd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+.portfolio
+{
+  color: black;
+  
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background: #666;
+  height: 380px;
+  padding: 60px 40px;
+  color: white;
+  overflow: hidden;
+}
+
+/* Watermark Image */
+.watermark {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  opacity: 0.25;
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+/* Normal Profile Image */
+.profile-img {
+  width: 120px;
+  margin-top: 20px;
+}
+/* Button */
+.btn {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+.button{
+  background:#d4cdcd;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* About Section */
+.about {
+  display: flex;
+  gap: 40px;
+  padding: 60px 40px;
+  align-items: center;
+}
+
+.about-img img {
+  width: 260px;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2196f3;
+  display: inline-block;
+}
+
+.about-text p {
+  margin: 15px 0;
+}
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
